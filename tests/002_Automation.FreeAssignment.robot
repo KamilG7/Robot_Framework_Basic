@@ -7,5 +7,6 @@ Suite Setup
 Test Setup              Common.Begin Web Test
 Test Teardown           Common.End Web Test
 Suite Teardown
+# robot -d results tests/002_Automation.FreeAssignment.robot
 
 *** Test Cases ***

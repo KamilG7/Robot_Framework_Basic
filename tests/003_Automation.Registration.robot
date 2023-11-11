@@ -7,5 +7,6 @@ Suite Setup
 Test Setup              Common.Begin Web Test
 Test Teardown           Common.End Web Test
 Suite Teardown
+# robot -d results tests/003_Automation.Registration.robot
 
 *** Test Cases ***
