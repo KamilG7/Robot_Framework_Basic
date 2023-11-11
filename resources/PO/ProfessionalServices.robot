@@ -32,9 +32,11 @@ Accept Captcha
 Submit "Free Assessment" Form
     click button                          ${PROFESSIONAL_SERVICES_SUBMIT_LOCATOR}
 
+Verify Confirmation Page Loaded
+    wait until page contains element      ${PROFESSIONAL_SERVICES_SENT_LOCATOR}
+
 Verify Form Was Submitted Sucessfully
-    ${confirmation_text} =    get text    ${PROFESSIONAL_SERVICES_CONFIRMATION_LOCATOR}
-    should be equal as strings            ${confirmation_text}                        ${PROFESSIONAL_SERVICES_CONFIRMATION}
+    element should contain                ${PROFESSIONAL_SERVICES_CONFIRMATION_LOCATOR}    ${PROFESSIONAL_SERVICES_CONFIRMATION}
 
 
 

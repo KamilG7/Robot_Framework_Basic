@@ -26,5 +26,6 @@ Accept Captcha in "Free Assessment" Form
 
 Send "Free Assessment" Form
     ProfessionalServices.Submit "Free Assessment" Form
+    ProfessionalServices.Verify Confirmation Page Loaded
     ProfessionalServices.Verify Form Was Submitted Sucessfully
 
