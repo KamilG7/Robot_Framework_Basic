@@ -49,10 +49,65 @@ Verify "Registration" Successfull
 Sign Out
     Registration.Log Out
 
-Input Correct Data In "Registration" Form Without "First Name"
+Input Data In "Registration" Form Without "First Name"
     Registration.Input "Last Name"
     Registration.Input "Email"
     Registration.Input "Password"
+
+Input Data In "Registration" Form Without "Last Name"
+    Registration.Input "First Name"
+    Registration.Input "Email"
+    Registration.Input "Password"
+
+Input Data In "Registration" Form Without "Email"
+    Registration.Input "First Name"
+    Registration.Input "Last Name"
+    Registration.Input "Password"
+
+Input Data to "Registration" Form With Incorrect "Email"
+    Registration.Input "First Name"
+    Registration.Input "Last Name"
+    Registration.Input "Incorrect Email"
+    Registration.Input "Password"
+
+Input Data to "Registration" Form With weak "Password"
+    Registration.Input "First Name"
+    Registration.Input "Last Name"
+    Registration.Input "Email"
+    Registration.Input "Incorrect Password"
+
+User should be able to open "Terms and Conditions"
+    Registration.Open Terms and Conditions
+    Registration.Verify Terms and Conditions Opened
+
+User should be able to open "Privacy Policy"
+    Registration.Open Privacy Policy
+    Registration.Verify Privcy Policy Opened
+
+Verify No "First Name" error visible
+    Registration.Wait For Error List
+    Registration.Verify No "First Name" error
+
+Verify No "Last Name" error visible
+    Registration.Wait For Error List
+    Registration.Verify No "Last Name" error
+
+Verify No "Email" error visible
+    Registration.Wait For Error List
+    Registration.Verify No "Email" error
+
+Verify Invalid "Email" error visible
+    Registration.Wait For Error List
+    Registration.Verify Invalid "Email" error
+
+Verify Weak "Password" error visible
+    Registration.Wait For Error List
+    Registration.Verify Weak "Password" error
+
+Verify Used "Email" error visible
+    Registration.Wait For Error List
+    Registration.Verify Used "Email" error
+
 
 
 

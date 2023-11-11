@@ -28,27 +28,35 @@ ${PROFESSIONAL_SERVICES_COMMENT} =      Comment with lenght of at least 30 chara
 ${PROFESSIONAL_SERVICES_CONFIRMATION} =    Thank you!
 
 
-${USER_FIRST_NAME} =
-${USER_LAST_NAME} =
-${USER_PASSWORD} =
-${USER_EMAIL} =
-${USER_INCORRECT_EMAIL} =
-${USER_INCORRECT_PASSWORD} =
+${USER_FIRST_NAME} =    Kamil
+${USER_LAST_NAME} =     Gal
+${USER_PASSWORD} =      strongone123
+${USER_EMAIL} =         xxx7x@gmail.com
+${USER_INCORRECT_EMAIL} =       xxxx.com
+${USER_INCORRECT_PASSWORD} =        weak
 
-${REGISTRATION_FIRST_NAME_LOCATOR} =
-${REGISTRATION_LAST_NAME_LOCATOR} =
-${REGISTRATION_PASSWORD_LOCATOR} =
-${REGISTRATION_EMAIL_LOCATOR} =
-${REGISTRATION_CHECKBOX_LOCATOR} =
-${REGISTRATION_TERMS_LOCATOR} =
-${REGISTRATION_PRIVACY_LOCATOR} =
-${REGISTRATION_SIGN_UP_BUTTON_LOCATOR} =
+${REGISTRATION_FIRST_NAME_LOCATOR} =        id=user[first_name]
+${REGISTRATION_LAST_NAME_LOCATOR} =         id=user[last_name]
+${REGISTRATION_PASSWORD_LOCATOR} =          id=user[password]
+${REGISTRATION_EMAIL_LOCATOR} =             id=user[email]
+${REGISTRATION_CHECKBOX_LOCATOR} =          id=user[terms]
+${REGISTRATION_TERMS_LOCATOR} =             xpath=//label/a[1]
+${REGISTRATION_PRIVACY_LOCATOR} =           xpath=//label/a[2]
+${REGISTRATION_SIGN_UP_BUTTON_LOCATOR} =            xpath=//div/button[@class='button button-primary g-recaptcha']
 ${SIGN_UP_PAGE_LOADED_CONFIRMATION_LOCATOR} =    xpath=//h2[@class="page__heading"]
 ${SIGN_UP_PAGE_HEADING} =    Create a new account
 ${REGISTRATION_USER_DROPDOWN} =    //button[@class='dropdown__toggle-button']
 ${REGISTRATION_SIGN_OUT} =      //a[contains(text(), "Sign Out")]
-${TERMS_AND_CONDITION_HEADING_LOACTOR} =
-${TERMS_AND_CONDITIONS_HEADING} =
-${PRIVACY_POLICY_LOCATOR} =
-${PRIVACY_POLICY_HEADING} =
+${TERMS_AND_CONDITION_HEADING_LOACTOR} =        xpath=//div/p[2]/span/span/span
+${TERMS_AND_CONDITIONS_HEADING} =           SERVICE AGREEMENT AND TERMS OF USE
+${PRIVACY_POLICY_LOCATOR} =             xpath=//main/div/h3
+${PRIVACY_POLICY_HEADING} =         What kind of data is processed?
+${REGISTRATION_ERROR_LIST_LOCATOR} =        //li[@class='form-error__list-item']
+${REGISTRATION_FIRST_NAME_ERROR} =    First name can't be blank
+${REGISTRATION_LAST_NAME_ERROR} =       Last name can't be blank
+${REGISTRATION_EMAIL_ERROR} =    Email can't be blank
+${REGISTRATION_INVALID_EMAIL_ERROR} =    Email is invalid
+${REGISTRATION_WEAK_PASSWORD_ERROR} =    Password must be at least 8 characters
+${REGISTRATION_USED_EMAIL_ERROR} =    Email has already been taken
+
 

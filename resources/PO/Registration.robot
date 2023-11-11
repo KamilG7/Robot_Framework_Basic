@@ -41,14 +41,39 @@ Input "Incorrect Password"
     input text          ${REGISTRATION_PASSWORD_LOCATOR}    ${USER_INCORRECT_PASSWORD}
 
 Open Terms and Conditions
-    click link          ${REGISTRATION_TERMS_LOCATOR}
+    click link        ${REGISTRATION_TERMS_LOCATOR}
+    Switch Window       title:Terms of Use
 
 Open Privacy Policy
     click link          ${REGISTRATION_PRIVACY_LOCATOR}
+    Switch Window       title:Privacy Policy
+
+Wait For Error List
+    wait until page contains element        ${REGISTRATION_ERROR_LIST_LOCATOR}
 
 Verify Terms and Conditions Opened
     element should contain      ${TERMS_AND_CONDITION_HEADING_LOACTOR}      ${TERMS_AND_CONDITIONS_HEADING}
 
 Verify Privcy Policy Opened
     element should contain      ${PRIVACY_POLICY_LOCATOR}                   ${PRIVACY_POLICY_HEADING}
+
+Verify No "First Name" error
+    element should contain      ${REGISTRATION_ERROR_LIST_LOCATOR}      ${REGISTRATION_FIRST_NAME_ERROR}
+
+Verify No "Last Name" error
+    element should contain      ${REGISTRATION_ERROR_LIST_LOCATOR}      ${REGISTRATION_LAST_NAME_ERROR}
+
+Verify No "Email" error
+    element should contain      ${REGISTRATION_ERROR_LIST_LOCATOR}      ${REGISTRATION_EMAIL_ERROR}
+
+Verify Invalid "Email" error
+    element should contain      ${REGISTRATION_ERROR_LIST_LOCATOR}      ${REGISTRATION_INVALID_EMAIL_ERROR}
+
+Verify Weak "Password" error
+    element should contain      ${REGISTRATION_ERROR_LIST_LOCATOR}      ${REGISTRATION_WEAK_PASSWORD_ERROR}
+
+Verify Used "Email" error
+    element should contain      ${REGISTRATION_ERROR_LIST_LOCATOR}      ${REGISTRATION_USED_EMAIL_ERROR}
+
+
 
