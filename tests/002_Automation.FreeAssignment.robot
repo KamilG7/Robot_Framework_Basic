@@ -10,3 +10,8 @@ Suite Teardown
 # robot -d results tests/002_Automation.FreeAssignment.robot
 
 *** Test Cases ***
+User should be able to apply for free assessment
+    [Documentation]     User should be able to apply for free assessment
+    [Tags]              id=1002    smoke    FreeAassessment
+    AutomationApp.Navigate To Professional Services
+    AutomationApp.Input Contact Data for "Free Assessment"

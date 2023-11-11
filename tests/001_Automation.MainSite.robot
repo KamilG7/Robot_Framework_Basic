@@ -10,7 +10,7 @@ Suite Teardown
 # robot -d results tests/001_Automation.MainSite.robot
 
 *** Test Cases ***
-Should Be Able To Access Main Site
-    [Documentation]     This is Test1
+Should Be Able To Access "Main Site"
+    [Documentation]     "Main Site" should load
     [Tags]              id=1001    smoke    MainSite
     AutomationApp.Navigate To Main Site
