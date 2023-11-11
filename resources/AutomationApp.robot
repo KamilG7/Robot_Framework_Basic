@@ -29,3 +29,32 @@ Send "Free Assessment" Form
     ProfessionalServices.Verify Confirmation Page Loaded
     ProfessionalServices.Verify Form Was Submitted Sucessfully
 
+Navigate To Sign Up Page
+    Registration.Navigate To
+    Registration.Verify Page Loaded
+
+Input Correct Data In "Registration" Form
+    Registration.Input "First Name"
+    Registration.Input "Last Name"
+    Registration.Input "Email"
+    Registration.Input "Password"
+
+Accept Terms And Submit "Registration" Form
+    Registration.Accept Terms Checkbox
+    Registration.Submit Registration Form
+
+Verify "Registration" Successfull
+    Registration.Verify Registration Complete
+
+Sign Out
+    Registration.Log Out
+
+Input Correct Data In "Registration" Form Without "First Name"
+    Registration.Input "Last Name"
+    Registration.Input "Email"
+    Registration.Input "Password"
+
+
+
+
+

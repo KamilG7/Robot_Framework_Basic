@@ -1,6 +1,8 @@
 *** Variables ***
 ${BROWSER} =            chrome
 ${URL_HOME_PAGE} =      https://ultimateqa.com/
+${URL_SIGN_UP} =    https://courses.ultimateqa.com/users/sign_up
+${URL_SIGN_IN} =    https://courses.ultimateqa.com/users/sign_in
 
 
 ${MAIN_SITE_LOADED_CONFIRMATION_LOCATOR} =                xpath=//img[@class="wp-image-216051"]
@@ -24,3 +26,29 @@ ${PROFESSIONAL_SERVICES_JOB} =          Checker
 ${PROFESSIONAL_SERVICES_COMPANY} =      Checker Corp
 ${PROFESSIONAL_SERVICES_COMMENT} =      Comment with lenght of at least 30 characters
 ${PROFESSIONAL_SERVICES_CONFIRMATION} =    Thank you!
+
+
+${USER_FIRST_NAME} =
+${USER_LAST_NAME} =
+${USER_PASSWORD} =
+${USER_EMAIL} =
+${USER_INCORRECT_EMAIL} =
+${USER_INCORRECT_PASSWORD} =
+
+${REGISTRATION_FIRST_NAME_LOCATOR} =
+${REGISTRATION_LAST_NAME_LOCATOR} =
+${REGISTRATION_PASSWORD_LOCATOR} =
+${REGISTRATION_EMAIL_LOCATOR} =
+${REGISTRATION_CHECKBOX_LOCATOR} =
+${REGISTRATION_TERMS_LOCATOR} =
+${REGISTRATION_PRIVACY_LOCATOR} =
+${REGISTRATION_SIGN_UP_BUTTON_LOCATOR} =
+${SIGN_UP_PAGE_LOADED_CONFIRMATION_LOCATOR} =    xpath=//h2[@class="page__heading"]
+${SIGN_UP_PAGE_HEADING} =    Create a new account
+${REGISTRATION_USER_DROPDOWN} =    //button[@class='dropdown__toggle-button']
+${REGISTRATION_SIGN_OUT} =      //a[contains(text(), "Sign Out")]
+${TERMS_AND_CONDITION_HEADING_LOACTOR} =
+${TERMS_AND_CONDITIONS_HEADING} =
+${PRIVACY_POLICY_LOCATOR} =
+${PRIVACY_POLICY_HEADING} =
+
