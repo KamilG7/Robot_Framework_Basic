@@ -15,3 +15,5 @@ User should be able to apply for free assessment
     [Tags]              id=1002    smoke    FreeAassessment
     AutomationApp.Navigate To Professional Services
     AutomationApp.Input Contact Data for "Free Assessment"
+    AutomationApp.Accept Captcha in "Free Assessment" Form
+    AutomationApp.Send "Free Assessment" Form

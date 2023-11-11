@@ -33,7 +33,8 @@ Submit "Free Assessment" Form
     click button                          ${PROFESSIONAL_SERVICES_SUBMIT_LOCATOR}
 
 Verify Form Was Submitted Sucessfully
-
+    ${confirmation_text} =    get text    ${PROFESSIONAL_SERVICES_CONFIRMATION_LOCATOR}
+    should be equal as strings            ${confirmation_text}                        ${PROFESSIONAL_SERVICES_CONFIRMATION}
 
 
 
