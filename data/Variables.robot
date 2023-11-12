@@ -60,12 +60,21 @@ ${REGISTRATION_INVALID_EMAIL_ERROR} =    Email is invalid
 ${REGISTRATION_WEAK_PASSWORD_ERROR} =    Password must be at least 8 characters
 ${REGISTRATION_USED_EMAIL_ERROR} =    Email has already been taken
 
-${LOGIN_EMAIL_LOCATOR} =
-${LOGIN_PASSWORD_LOCATOR} =
-${LOGIN_FORGOT_PASSWORD_LOCATOR} =
-${LOGIN_SIGN_IN_BUTTON_LOCATOR} =
-${LOGIN_PAGE_LOADED_CONFIRMATION_LOCATOR} =
-${LOGIN_PAGE_CONFIRMATION_HEADING} =
+${LOGIN_EMAIL_LOCATOR} =        xpath=//input[@id="user[email]"]
+${LOGIN_PASSWORD_LOCATOR} =     xpath=//input[@id="user[password]"]
+${LOGIN_FORGOT_PASSWORD_LOCATOR} =      xpath=//a[@class='form__forgot-password']
+${LOGIN_SIGN_IN_BUTTON_LOCATOR} =       xpath=//button[@class='button button-primary g-recaptcha']
+${LOGIN_PAGE_LOADED_CONFIRMATION_LOCATOR} =     xpath=//article/h2
+${LOGIN_PAGE_CONFIRMATION_HEADING} =        Welcome Back!
+${LOGIN_FORGOT_PASSWORD_PAGE_LOCATOR} =     xpath=//h2[@class="password-reset__heading"]
+${LOGIN_FORGOT_PASSWORD_PAGE_HEADING} =     Forgot your Password?
+${LOGIN_FORGOT_PASSWORD_SUBMIT_BUTTON} =    xpath=//input[@name="commit"]
+${LOGIN_FORGOT_PASSWORD_EMAIL_LOCATOR} =        id=user[email]
+${LOGIN_FORGOT_PASSWORD_CONFIRMATION_LOCATOR} =     xpath=//h2[@class="password-reset__heading"]
+${LOGIN_FORGOT_PASSWORD_CONFIRMATION_HEADING} =     Help is on the way!
+${LOGIN_ERROR_LIST} =    //div[@id="notice"]/ul/li
+${LOGIN_ERROR_MESSAGE} =    Invalid email or password
+
 
 
 

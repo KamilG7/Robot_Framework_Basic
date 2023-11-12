@@ -112,6 +112,33 @@ Navigate To Login Page
     Login.Navigate To
     Login.Verify Page Loaded
 
+Input "Login" Credantials
+    Login.Input "Email"
+    Login.Input "Password"
+
+Click "Sign In" Button and Check if Successful
+    Login.Click "Sign In" Button
+    Login.Verify Login Successful
+
+Open Forgot Password Page
+    Login.Go To "Forgot Password"
+    Login.Verify "Forgot Password" Page Loaded
+
+Forgot Password Input Credantials and Send Form
+    Login.Input "Email"
+    Login.Click "Forgot Password" Submit Button
+
+Veify Forgot Password Succesfful
+    Login.Verify Successfull "Forgot Password" Action
+
+Verify "Login" Error Visible
+    Login.Wait For Error List
+    Login.Check Login Error
+
+Click "Sign In" Button
+    Login.Click "Sign In" Button
+
+
 
 
 
