@@ -35,6 +35,7 @@ ${USER_EMAIL} =         xxx7x@gmail.com
 ${USER_INCORRECT_EMAIL} =       xxxx.com
 ${USER_INCORRECT_PASSWORD} =        weak
 
+
 ${REGISTRATION_FIRST_NAME_LOCATOR} =        id=user[first_name]
 ${REGISTRATION_LAST_NAME_LOCATOR} =         id=user[last_name]
 ${REGISTRATION_PASSWORD_LOCATOR} =          id=user[password]
@@ -58,5 +59,13 @@ ${REGISTRATION_EMAIL_ERROR} =    Email can't be blank
 ${REGISTRATION_INVALID_EMAIL_ERROR} =    Email is invalid
 ${REGISTRATION_WEAK_PASSWORD_ERROR} =    Password must be at least 8 characters
 ${REGISTRATION_USED_EMAIL_ERROR} =    Email has already been taken
+
+${LOGIN_EMAIL_LOCATOR} =
+${LOGIN_PASSWORD_LOCATOR} =
+${LOGIN_FORGOT_PASSWORD_LOCATOR} =
+${LOGIN_SIGN_IN_BUTTON_LOCATOR} =
+${LOGIN_PAGE_LOADED_CONFIRMATION_LOCATOR} =
+${LOGIN_PAGE_CONFIRMATION_HEADING} =
+
 
 

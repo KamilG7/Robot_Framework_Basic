@@ -108,6 +108,10 @@ Verify Used "Email" error visible
     Registration.Wait For Error List
     Registration.Verify Used "Email" error
 
+Navigate To Login Page
+    Login.Navigate To
+    Login.Verify Page Loaded
+
 
 
 

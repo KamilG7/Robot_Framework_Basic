@@ -8,8 +8,6 @@ Test Setup              Common.Begin Web Test
 Test Teardown           Common.End Web Test
 Suite Teardown
 # robot -d results tests/003_Automation.Registration.robot
-# robot -d results -i id=1012 tests/003_Automation.Registration.robot
-
 
 *** Test Cases ***
 Registration should fail when "weak password" submitted
