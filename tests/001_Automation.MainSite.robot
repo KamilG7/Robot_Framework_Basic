@@ -14,3 +14,9 @@ Should Be Able To Access "Main Site"
     [Documentation]     "Main Site" should load
     [Tags]              id=1001    smoke    MainSite
     AutomationApp.Navigate To Main Site
+
+It Should Be Possible To Add Cookie
+    [Documentation]     Check if possible to add cookie
+    [Tags]              id=1016    Functional    MainSite
+    AutomationApp.Navigate To Main Site
+    AutomationApp.Check If Possible To Add Cookie

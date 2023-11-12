@@ -138,6 +138,10 @@ Verify "Login" Error Visible
 Click "Sign In" Button
     Login.Click "Sign In" Button
 
+Check If Possible To Add Cookie
+    MainSite.Add Cookie Test
+    MainSite.Check If Cookie Added Successfuly
+
 
 
 
